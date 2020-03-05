@@ -13,6 +13,12 @@
 		C5DCAF6E240AD6EB00353623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5DCAF6D240AD6EB00353623 /* Assets.xcassets */; };
 		C5DCAF71240AD6EB00353623 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5DCAF70240AD6EB00353623 /* Preview Assets.xcassets */; };
 		C5DCAF74240AD6EB00353623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DCAF72240AD6EB00353623 /* LaunchScreen.storyboard */; };
+		C5DCAF7F240AD98900353623 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DCAF7B240AD98900353623 /* Helper.swift */; };
+		C5DCAF80240AD98900353623 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = C5DCAF7C240AD98900353623 /* menu.json */; };
+		C5DCAF81240AD98900353623 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DCAF7D240AD98900353623 /* Menu.swift */; };
+		C5DCAF82240AD98900353623 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DCAF7E240AD98900353623 /* Order.swift */; };
+		C5DCAF84240AE1F000353623 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DCAF83240AE1F000353623 /* ItemView.swift */; };
+		C5DCAF86240AEE1900353623 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DCAF85240AEE1900353623 /* ItemDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		C5DCAF70240AD6EB00353623 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5DCAF73240AD6EB00353623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5DCAF75240AD6EB00353623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DCAF7B240AD98900353623 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		C5DCAF7C240AD98900353623 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		C5DCAF7D240AD98900353623 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		C5DCAF7E240AD98900353623 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		C5DCAF83240AE1F000353623 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		C5DCAF85240AEE1900353623 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,10 @@
 		C5DCAF66240AD6E900353623 /* SwiftDishApp */ = {
 			isa = PBXGroup;
 			children = (
+				C5DCAF7B240AD98900353623 /* Helper.swift */,
+				C5DCAF7C240AD98900353623 /* menu.json */,
+				C5DCAF7D240AD98900353623 /* Menu.swift */,
+				C5DCAF7E240AD98900353623 /* Order.swift */,
 				C5DCAF67240AD6E900353623 /* AppDelegate.swift */,
 				C5DCAF69240AD6E900353623 /* SceneDelegate.swift */,
 				C5DCAF6B240AD6E900353623 /* ContentView.swift */,
@@ -63,6 +79,8 @@
 				C5DCAF72240AD6EB00353623 /* LaunchScreen.storyboard */,
 				C5DCAF75240AD6EB00353623 /* Info.plist */,
 				C5DCAF6F240AD6EB00353623 /* Preview Content */,
+				C5DCAF83240AE1F000353623 /* ItemView.swift */,
+				C5DCAF85240AEE1900353623 /* ItemDetailView.swift */,
 			);
 			path = SwiftDishApp;
 			sourceTree = "<group>";
@@ -135,6 +153,7 @@
 			files = (
 				C5DCAF74240AD6EB00353623 /* LaunchScreen.storyboard in Resources */,
 				C5DCAF71240AD6EB00353623 /* Preview Assets.xcassets in Resources */,
+				C5DCAF80240AD98900353623 /* menu.json in Resources */,
 				C5DCAF6E240AD6EB00353623 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,9 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5DCAF82240AD98900353623 /* Order.swift in Sources */,
 				C5DCAF68240AD6E900353623 /* AppDelegate.swift in Sources */,
 				C5DCAF6A240AD6E900353623 /* SceneDelegate.swift in Sources */,
 				C5DCAF6C240AD6E900353623 /* ContentView.swift in Sources */,
+				C5DCAF86240AEE1900353623 /* ItemDetailView.swift in Sources */,
+				C5DCAF84240AE1F000353623 /* ItemView.swift in Sources */,
+				C5DCAF7F240AD98900353623 /* Helper.swift in Sources */,
+				C5DCAF81240AD98900353623 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +310,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDishApp/Preview Content\"";
+				DEVELOPMENT_TEAM = T37F3DMYC2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftDishApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.delasalle.SwiftDishApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,8 +331,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDishApp/Preview Content\"";
+				DEVELOPMENT_TEAM = T37F3DMYC2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftDishApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +342,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.delasalle.SwiftDishApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
