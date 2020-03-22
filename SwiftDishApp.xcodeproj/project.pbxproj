@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C51E0EE82426E074008D0F0F /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E0EE72426E074008D0F0F /* FavoritesView.swift */; };
+		C51E0EEA2426E097008D0F0F /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E0EE92426E097008D0F0F /* Favorites.swift */; };
+		C57435FB24141A390011E746 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57435FA24141A390011E746 /* OrderView.swift */; };
+		C57435FD24141E510011E746 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57435FC24141E510011E746 /* AppView.swift */; };
+		C57435FF241421E10011E746 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57435FE241421E10011E746 /* CheckoutView.swift */; };
 		C5DCAF68240AD6E900353623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DCAF67240AD6E900353623 /* AppDelegate.swift */; };
 		C5DCAF6A240AD6E900353623 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DCAF69240AD6E900353623 /* SceneDelegate.swift */; };
 		C5DCAF6C240AD6E900353623 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DCAF6B240AD6E900353623 /* ContentView.swift */; };
@@ -22,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C51E0EE72426E074008D0F0F /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		C51E0EE92426E097008D0F0F /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		C57435FA24141A390011E746 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		C57435FC24141E510011E746 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		C57435FE241421E10011E746 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		C5DCAF64240AD6E900353623 /* SwiftDishApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDishApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DCAF67240AD6E900353623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5DCAF69240AD6E900353623 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +82,7 @@
 				C5DCAF7C240AD98900353623 /* menu.json */,
 				C5DCAF7D240AD98900353623 /* Menu.swift */,
 				C5DCAF7E240AD98900353623 /* Order.swift */,
+				C57435FA24141A390011E746 /* OrderView.swift */,
 				C5DCAF67240AD6E900353623 /* AppDelegate.swift */,
 				C5DCAF69240AD6E900353623 /* SceneDelegate.swift */,
 				C5DCAF6B240AD6E900353623 /* ContentView.swift */,
@@ -81,6 +92,10 @@
 				C5DCAF6F240AD6EB00353623 /* Preview Content */,
 				C5DCAF83240AE1F000353623 /* ItemView.swift */,
 				C5DCAF85240AEE1900353623 /* ItemDetailView.swift */,
+				C57435FC24141E510011E746 /* AppView.swift */,
+				C57435FE241421E10011E746 /* CheckoutView.swift */,
+				C51E0EE72426E074008D0F0F /* FavoritesView.swift */,
+				C51E0EE92426E097008D0F0F /* Favorites.swift */,
 			);
 			path = SwiftDishApp;
 			sourceTree = "<group>";
@@ -166,13 +181,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5DCAF82240AD98900353623 /* Order.swift in Sources */,
+				C57435FF241421E10011E746 /* CheckoutView.swift in Sources */,
 				C5DCAF68240AD6E900353623 /* AppDelegate.swift in Sources */,
 				C5DCAF6A240AD6E900353623 /* SceneDelegate.swift in Sources */,
 				C5DCAF6C240AD6E900353623 /* ContentView.swift in Sources */,
 				C5DCAF86240AEE1900353623 /* ItemDetailView.swift in Sources */,
 				C5DCAF84240AE1F000353623 /* ItemView.swift in Sources */,
+				C57435FB24141A390011E746 /* OrderView.swift in Sources */,
+				C51E0EE82426E074008D0F0F /* FavoritesView.swift in Sources */,
 				C5DCAF7F240AD98900353623 /* Helper.swift in Sources */,
+				C57435FD24141E510011E746 /* AppView.swift in Sources */,
 				C5DCAF81240AD98900353623 /* Menu.swift in Sources */,
+				C51E0EEA2426E097008D0F0F /* Favorites.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
